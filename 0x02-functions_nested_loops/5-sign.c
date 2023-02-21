@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign will Print the sign of the number passed.
+ * print_sign - will Print the sign of the number passed.
  * @n: Parameter to be passed.
  *
  * Return: 1 if the number is greater than zero,
