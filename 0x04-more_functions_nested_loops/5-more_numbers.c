@@ -1,18 +1,23 @@
 #include "main.h"
 
 /**
-*print_numbers - print single
-*digits from 0-9
-*Return: void
-*/
+ * more_numbers - nmbr fct
+ *
+ * Return: no return
+ */
 
-void print_numbers(void)
+void more_numbers(void)
 {
-	char c;
 
-	for (c = '0'; c <= '9'; c++)
+int i, j;
+	for (i = 1; i <= 10; i++)
 	{
-	_putchar(c);
-	}
-	_putchar('\n');
+		for (j = 0; j <= 14; j++)
+		{
+			if (j >= 10)
+			_putchar('1');
+			_putchar(j % 10 + '0');
+		}
+			_putchar('\n');
+		}
 }
